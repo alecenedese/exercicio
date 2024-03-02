@@ -14,12 +14,11 @@ return new class extends Migration
     public function up()
     {
 
-        //..o nome da tabela é o nome do model, em minúsculo e no plural.
-        Schema::create('vehicles', function (Blueprint $table) {
+        Schema::create('contacts', function (Blueprint $table) {
             $table->id();
             $table->string("name", 50);
-            $table->integer("year");
-            $table->string("color", 30);
+            $table->string("contato", 9);
+	    $table->string("email", 50);
             $table->timestamps();
         });
     }
@@ -30,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('vehicles');
+        Schema::dropIfExists('contacts');
     }
 };

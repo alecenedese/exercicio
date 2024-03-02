@@ -16,8 +16,8 @@
         <nav>
             <ul>
                 {{-- Links para o cadastro --}}
-                <li><a href="/vehicles">Início</a></li>
-                <li><a href="/vehicles/create">Cadastro de Veículos</a></li>
+                <li><a href="/contacts">Início</a></li>
+                <li><a href="/contacts/create">Cadastrar Contato</a></li>
             </ul>
         </nav>
         <div class="content">
@@ -25,14 +25,11 @@
             @yield('content')
         </div>
         <footer>
-            <div>
-                <p>Aprendendo Laravel Framework</p>
-                <p><a href="http://www.laravel.com.br" target="_blank">Laravel Site</a></p>
-            </div>
-            <div>
-                <p>Prof. Me. Jorge Luís Gregório</p>
-                <p><a href="https://www.jlgregorio.com.br" target="_blank">Meu Site Oficial</a></p>
-            </div>
+
+            
+                <p>Alessandro Cenedese</p>
+                <p><a href="https://alessandrocenedese.com.br/" target="_blank">Meu Site Oficial</a></p>
+          
         </footer>
     </div>
 </body>
